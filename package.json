@@ -16,6 +16,7 @@
   "main": "index.js",
   "scripts": {
     "hello": "node hello-world.js",
-    "bye": "node bye-world.js"
+    "bye": "node bye-world.js",
+    "test": "node test-world.js"
   }
 }
