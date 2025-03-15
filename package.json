@@ -1,0 +1,21 @@
+{
+  "name": "javascript-examples",
+  "version": "1.0.0",
+  "description": "- `git config user.name \"paulinakaras\"` - set user name - `git config user.email \"ppaulina.karas@gmail.com\"` - set user mail",
+  "homepage": "https://github.com/paulinakaras/javascript-examples#readme",
+  "bugs": {
+    "url": "https://github.com/paulinakaras/javascript-examples/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulinakaras/javascript-examples.git"
+  },
+  "license": "ISC",
+  "author": "Paulina Karaś",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "hello": "node hello-world.js",
+    "bye": "node bye-world.js"
+  }
+}
