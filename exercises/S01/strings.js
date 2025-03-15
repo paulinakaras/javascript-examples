@@ -20,4 +20,3 @@ const testStatusFailed = "failed";
 console.log(`${testType} ${testStatusFailed} ${testStatusPassed}`);
 console.log(`${testType}: ${testStatusFailed}`);
 console.log(`${testType}: ${testStatusPassed}`);
-
