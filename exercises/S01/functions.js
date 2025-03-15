@@ -41,3 +41,25 @@ function multiplication(paramOne, paramTwo) {
 }
 const resultOfMultiplication = multiplication(3, 7);
 console.log("Result of multiplication:", resultOfMultiplication);
+
+// optional and default parameters
+function addTwoNumbers(numberOne, numberTwo = 2) {
+  return numberOne + numberTwo;
+}
+const resultOptionalAndDefault = addTwoNumbers(1);
+console.log("result of addTwoNumbers(1):", resultOptionalAndDefault);
+
+const resultSecond = addTwoNumbers(1, 4);
+console.log("result of addTwoNumbers(1, 4):", resultSecond);
+
+//undefined
+function doSomething(numberOne) {
+  console.log("numberOne for addTwoStrings has value:", numberOne);
+}
+doSomething();
+
+function joinStrings(param1, param2, param3 = "!") {
+  return `${param1} ${param2} ${param3}`;
+}
+const result = joinStrings("Hello", "World");
+console.log(result);
