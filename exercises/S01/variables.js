@@ -12,3 +12,9 @@ console.log(varableThatCanBeChanged, constatString);
 
 varableThatCanBeChanged = "Goodbye";
 console.log(varableThatCanBeChanged, constatString);
+
+let userAge = 12;
+const userName = "John Doe";
+
+console.log(userAge);
+console.log(userName);
