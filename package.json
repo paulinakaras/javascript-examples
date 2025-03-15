@@ -15,8 +15,23 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "hello": "node hello-world.js",
-    "bye": "node bye-world.js",
-    "test": "node test-world.js"
+    "hello": "node exercises/hello/hello-world.js",
+    "bye": "node exercises/hello/bye-world.js",
+    "test": "node exercises/hello/test-world.js",
+    "es1e1": "node exercises/S01/variables.js",
+    "es1e2": "node exercises/S01/strings.js",
+    "es1e3": "node exercises/S01/functions.js",
+    "es1e4": "node exercises/S01/functions.js",
+    "es1e5": "node exercises/S01/arrays.js",
+    "es1e6": "node exercises/S01/arrays.operations.js",
+    "es1e7": "node exercises/S01/loops.js",
+    "es2e1": "node exercises/S02/conditionals.js",
+    "es2e2": "node exercises/S02/conditionals.and.equality.js",
+    "es2e3": "node exercises/S02/objects.js",
+    "es2e4": "node exercises/S02/modules.and.exports.js",
+    "es3e1": "node exercises/S03/install.module.js",
+    "es3e2": "node exercises/S03/classes.js",
+    "es3e3": "node exercises/S03/file.operations.js",
+    "es3e4": "node exercises/S03/async.await.js"
   }
 }
