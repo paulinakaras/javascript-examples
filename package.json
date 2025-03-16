@@ -21,7 +21,7 @@
     "es1e1": "node exercises/S01/variables.js",
     "es1e2": "node exercises/S01/strings.js",
     "es1e3": "node exercises/S01/functions.js",
-    "es1e4": "node exercises/S01/functions.js",
+    "es1e4": "node exercises/S01/math.operations.js",
     "es1e5": "node exercises/S01/arrays.js",
     "es1e6": "node exercises/S01/arrays.operations.js",
     "es1e7": "node exercises/S01/loops.js",

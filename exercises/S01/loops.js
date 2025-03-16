@@ -18,4 +18,4 @@ function elementChecker(anArray) {
   });
 }
 
-elementChecker([1, 2, 'test'])
+elementChecker([1, 2, "test"]);
