@@ -41,13 +41,12 @@ function printPlayersState(health) {
     console.log("Player is alive and at ok health.");
   } else if (health < 10 && health >= 1) {
     console.log("Player is alive and at very poor health!");
-  } else if (health < 1)
-  {
+  } else if (health < 1) {
     console.log("Player is dead.");
   }
 }
-printPlayersState(100)
-printPlayersState(60)
-printPlayersState(0)
-printPlayersState(5)
-printPlayersState(-1)
+printPlayersState(100);
+printPlayersState(60);
+printPlayersState(0);
+printPlayersState(5);
+printPlayersState(-1);
